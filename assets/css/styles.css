@@ -1,0 +1,133 @@
+/* INDEX page styling */
+
+nav{
+    margin:auto;
+    background-color: #ffffff;
+    border:2px solid #cccccc;
+    background-color:none;
+    color:#777777;
+    padding: 5px 5px 5px 5px;
+}
+
+#nameBrand{
+    color: white;
+    background: #4aaaa5;
+    font-size: x-large;
+    float: left;
+}
+
+a{
+    display: inline;
+}
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    align-self: center;
+    margin:auto;
+}
+
+h1{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color:#4aaaa5;
+    border-bottom: 2px solid #cccccc;
+}
+
+#myPhoto{
+    margin:20px;
+}
+
+#mainContent{
+    /* max-width: 1285px; */
+    margin:20px;
+    padding: 5px 5px 5px 5px;
+    background: #ffffff;
+    border:2px solid #dddddd;
+}
+footer{
+    color:white;
+    text-align: center;
+    background-color: #666666;
+    padding: 10px 10px 10px 10px;
+    width: 100%;
+    border-top: 10px solid #4aaaa5;
+    position: fixed;
+    bottom: 0px;
+}
+
+/* Media query for xs screen  */
+
+@media screen and (max-width: 560px){
+    #mainContent{
+    width: 100%;
+    margin: initial;
+    }
+    a{
+        display: initial;
+    }
+}
+
+/* Portfolio Page  */
+
+.pfBox {
+    width: 300px;
+    height: 150px;
+    display: inline-block;
+    border: #cccccc solid 2px;
+    margin: 3px 3px 3px 3px;   
+    padding: 0px;
+}
+
+.pfItemName {
+    display: inline-block;
+    width: 100%;
+    /* height: 5px; */
+    background-color: #4aaaa5;
+    color: white;
+    font-size: 12px;
+    text-align:center;
+    padding: 15px;
+    margin-top:100px;
+}
+
+/* URL the images  */
+
+#cat {
+    background-image: url("../images/cat.jpg");
+    background-size: 100%;
+}
+#dog {
+    background-image: url("../images/dog.jpg");
+    background-size: 100%;
+}
+#lion {
+    background-image: url("../images/lion.jpg");
+    background-size: 100%;
+}
+#tiger {
+    background-image: url("../images/tiger.jpg");
+    background-size: 100%;
+}
+
+/* CONTACT Page Style */
+
+#inputMessage{
+    width:95%;
+    height:200px;
+}
+
+#inputName{
+    width:95%;
+    height: 30px;
+}
+
+#inputEmail{
+    width:95%;
+    height: 30px;
+}
+
+button{
+    width:120px;
+    height: 30px;
+    color: #ffffff;
+    background-color: #4aaaa5;
+}
